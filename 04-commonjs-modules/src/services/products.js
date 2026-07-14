@@ -1,4 +1,4 @@
-// todas as funções que lidam com produto
+// all functions relationed to products
 const productType = {
   version: "digital",
   tax: "x1",
