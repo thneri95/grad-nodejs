@@ -14,6 +14,7 @@ const player2 = {
   PONTOS: 0,
 };
 
+
 async function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
@@ -38,8 +39,7 @@ async function getRandomBlock() {
 
 async function logRollResult(characterName, block, diceResult, attribute) {
   console.log(
-    `${characterName} 🎲 rolou um dado de ${block} ${diceResult} + ${attribute} = ${
-      diceResult + attribute
+    `${characterName} 🎲 rolou um dado de ${block} ${diceResult} + ${attribute} = ${diceResult + attribute
     }`
   );
 }
