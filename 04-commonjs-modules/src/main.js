@@ -11,7 +11,6 @@ async function main() {
   products.getFullName("1", "teclado");
 
   console.log(productType);
-
   // product.getFullName("408", "mousepad");
   // product.getFullName("508", "mouse");
   // product.getProductLabel("mousepad");
