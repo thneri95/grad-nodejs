@@ -1,12 +1,25 @@
-comandos de navegação de diretórios
-  del *       (delete) deleta arquivos
-  ls            (list) lista arquivos no diretório
-  cls          (clear) limpa terminal 
-  cd          (change directory) muda de diretório
-  mkdir     (make directory) cria um diretório novo 
-  code      (vscode) abre o editor de código do vscode
+Node.JS 
 
-comandos npm e node
-  npm init -y           inicia um projeto node
-  node [arquivo]     roda arquivo javascript
-  node --watch [arquivo] node fica vigiando arquivo
+NPM - NODE PACKAGE MANAGER! 
+
+Commands 
+
+del * - Delete all  files; 
+del scr/index.js - delete especific files;
+cls - clear terminal;
+Ls - File list at directory; 
+cd - change directory; 
+mkdir - make new directory; (need to say where ex: src/ name)
+code - open code editor in Vs Code; 
+
+Npm Init-  Start a new project; 
+Npm Init -y  Start a new project (Yes) for all; 
+node [arquivo]  - Run JS files;
+
+node src/index.js  (access file) 
+
+Set Up - Repeat last comand
+
+node --watch + src/index.js  (Rexecute command and restarting automatically showing updates); 
+CTRL C to stop watch.
+
