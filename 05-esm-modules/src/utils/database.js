@@ -15,6 +15,7 @@ async function disconnectDatabase() {
 
 export { connectToDatabase, disconnectDatabase, databaseType };
 
+// other way to export for CommonJS
 // module.exports = {
 //   connectToDatabase,
 //   disconnectDatabase
