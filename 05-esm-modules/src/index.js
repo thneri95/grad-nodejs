@@ -2,6 +2,7 @@ import { connectToDatabase, disconnectDatabase, databaseType } from "./utils/dat
 import * as api from "./utils/api.js";
 
 api.getDataFromApi();
+
 connectToDatabase();
 
 disconnectDatabase();
