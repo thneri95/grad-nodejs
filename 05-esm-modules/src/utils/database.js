@@ -4,12 +4,13 @@ const databaseType = {
 };
 
 async function connectToDatabase(dataName) {
-  // lógica de conexão
-  console.log(`conectado ao banco  ${dataName}`);
+  // Connection logic here
+
+  console.log(`connected to the database ${dataName}`);
 }
 
 async function disconnectDatabase() {
-  console.log("desconectando do banco de dados");
+  console.log("disconnecting from the database");
 }
 
 export { connectToDatabase, disconnectDatabase, databaseType };
