@@ -4,5 +4,5 @@ export const key = {
 };
 
 export const getDataFromApi = () => {
-  console.log("dados da api sendo buscados...");
+  console.log("getting data from the API...");
 };
